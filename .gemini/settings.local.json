@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(.specify/scripts/powershell/check-prerequisites.ps1:*)",
+      "Bash(find:*)",
+      "Bash(pip install:*)",
+      "Bash(uvicorn main:app --reload:*)",
+      "Bash(uvicorn:*)",
+      "Bash(dir:*)",
+      "Bash(powershell -Command \"Get-ChildItem:*)",
+      "Bash(python -m uvicorn:*)",
+      "Bash(python -c:*)",
+      "Bash(findstr:*)",
+      "Bash(netstat:*)",
+      "Bash(curl -X POST http://localhost:8000/api/auth/register -H \"Content-Type: application/json\" -d \"{\\\\\"email\\\\\":\\\\\"test@example.com\\\\\",\\\\\"password\\\\\":\\\\\"testpassword\\\\\"}\":*)",
+      "Bash(tasklist:*)"
+    ]
+  }
+}
