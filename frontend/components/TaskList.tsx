@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { FiLoader, FiRefreshCw, FiFilter, FiSearch,FiCheckSquare } from 'react-icons/fi';
+import { FiLoader, FiRefreshCw, FiFilter, FiSearch,FiCheckSquare,FiX } from 'react-icons/fi';
 import TaskItem from './TaskItem';
 import { Task } from '../types/task';
 import { getTasks } from '../lib/api';
