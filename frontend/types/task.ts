@@ -6,6 +6,7 @@ export interface Task {
   user_id: number;
   created_at: string;
   updated_at: string;
+    priority?: 'low' | 'medium' | 'high';
 }
 
 export interface TaskCreate {
